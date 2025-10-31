@@ -19,7 +19,7 @@ export default function Header({ setSidebarOpen }: { setSidebarOpen: (open: bool
         </div>
 
         <div className="flex-1 mx-4">
-        <p className="text-[#003049] font-bold text-lg">Tech Enthusiast - Turning Ideas into Code.</p>
+        <p className="text-[#003049] font-bold text-md">Tech Enthusiast - Turning Ideas into Code.</p>
         </div>
 
         <div className="flex items-center space-x-4">

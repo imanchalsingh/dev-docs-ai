@@ -81,7 +81,7 @@ export default function InstallationPage() {
             {filteredGuides.map((guide, index) => (
               <div
                 key={guide.id}
-                className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden animate-fade-in-up"
+                className="bg-white rounded-xl shadow-lg border border-gray-200 p-6 transform transition-all duration-500 cursor-pointer border-t-8 border-t-[#003049] hover:border-t-[#adc178] hover:shadow-xl"
                 style={{ animationDelay: `${index * 100}ms` }}
               >
                 {/* Guide Header */}

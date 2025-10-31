@@ -1,7 +1,7 @@
 "use client";
 import { useState, useEffect } from "react";
 import FactCard from "../components/feature/FactCard";
-import { facts, installationGuides } from '../utils/constants';
+import { facts, installationGuides } from "../utils/constants";
 
 export default function Home() {
   const [currentFacts, setCurrentFacts] = useState(facts.slice(0, 3));
